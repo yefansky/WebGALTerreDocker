@@ -1,4 +1,5 @@
-﻿FROM node:latest
+﻿FROM node:lts
+
 WORKDIR /app
 ARG VERSION=4.4.11
 ADD https://github.com/OpenWebGAL/WebGAL_Terre/releases/download/${VERSION}/WebGAL_Terre_Linux_${VERSION}.zip /app/
