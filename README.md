@@ -14,7 +14,8 @@ docker pull openwebgal/webgal_terre:latest
 ```bash
 docker run -p 3001:3001 -v /your/local/path:/app/public/games openwebgal/webgal_terre:latest
 -p 3001:3001
--v /your/local/path:/app/public/games
+-v /your/local/path:/workspace
+-v /your/local/path:/export
 ```
 ## 访问 WebGAL_Terre
 一旦容器成功运行，你可以通过浏览器访问 WebGAL_Terre：
